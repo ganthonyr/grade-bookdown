@@ -1,0 +1,16 @@
+{
+  "hash": "ab43749dbef098af67cd681df5ca5ea5",
+  "result": {
+    "markdown": "# Welcome {.unnumbered}\n\n\n::: {.cell}\n\n:::\n\n\nThis is the website for the work-in-progress **\"GRADE Guidelines Repository in a bookdown\"**. This book brings together the GRADE (Grading of Recommendations, Assessment, Development, and Evaluations) guidelines articles, available in the journals in which they have been published over time. \nIn addition, you will find links to available resources on the GRADE methodology in english and spanish.\n\nAccording to the BMJ: *\"GRADE is a transparent framework for developing and presenting evidence summaries and provides a systematic approach to making clinical practice recommendations. It is the most widely adopted tool for grading the quality of evidence and for making recommendations, with more than 100 organizations worldwide officially endorsing GRADE.\"* \n\nIf you wish to contribute, you are welcome! Just send a pull request in the github repository. ADD LINK TO GITHUB\n\nThis website is and will always be free, licensed under the [CC BY-NC-ND 3.0](https://creativecommons.org/licenses/by-nc-nd/3.0/us/) License.\n\nPlease note that *\"GRADE Guidelines Repository in a bookdown\"* uses a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).\nBy contributing to this book, you agree to abide by its terms.\n\n## Acknowledgements {.unnumbered}\n\n*\"GRADE Guidelines Repository in a bookdown\"* is hosted by <https://www.netlify.com> as part of their support of open source software and communities.\n\n# Disclaimer {.unnumbered}\n\nThis publication has as its sole purpose, to gather and disseminate the information available on this Evidence Based Medicine methodology.\n",
+    "supporting": [
+      "index_files"
+    ],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

@@ -1,0 +1,56 @@
+
+/****INDEX****/
+/***BODY****/
+
+/*titulo*/
+
+#quarto-content>*{
+  padding-top: 3px;
+}
+
+main {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title .title {
+  color: transparent;
+  margin-bottom: -120px; /*escondiendo el titulo*/
+}
+
+
+#welcome p:not(:first-child){
+  font-size: 20px;
+}
+
+/*cover image*/
+.quarto-cover-image {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  border: 1px solid #999999;
+  margin-top: 70px;
+}
+
+
+
+/****FOOTER****/
+.nav-footer {
+  background-color: steelblue;
+  color: white;
+}
+
+.nav-footer-left {
+  margin-left: 6rem;
+}
+
+.nav-footer-right {
+  margin-right: 6rem;
+}
+
+.nav-footer a {
+  color: white;
+}
+
+.nav-footer a:hover {
+  color: white;
+  font-weight: 600;
+}

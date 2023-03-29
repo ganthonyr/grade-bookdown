@@ -1,0 +1,37 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "GRADE guidelines repository in a bookdown"
+  reader-mode: true
+  # author: "Anthony Romero-Cerdán"
+  # date: "21/3/2023"
+  page-footer:
+    left: |
+      *GRADE guidelines repository in a bookdown* was elaborated by Anthony Romero-Cerdán.
+    right: |
+      This document was built with <a href="https://quarto.org/">*Quarto*</a> & <a href="https://bookdown.org/">*Bookdown*</a>.
+  cover-image: images/cover.png
+  favicon: images/icon.png
+  # site-url: https://r4ds.hadley.nz/
+  # repo-url: https://github.com/hadley/r4ds/
+
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+    
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+  pdf:
+    documentclass: scrreprt
+
+
+
