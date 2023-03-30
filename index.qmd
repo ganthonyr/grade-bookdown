@@ -1,10 +1,6 @@
 # Welcome {.unnumbered}
 
-```{r}
-#| echo: FALSE
-#| out.width: NULL
-# knitr::include_graphics("images/cover.png", dpi = 270)
-```
+
 
 This is the website for the work-in-progress **"GRADE Guidelines Repository in a bookdown"**. This book brings together the GRADE (Grading of Recommendations, Assessment, Development, and Evaluations) guidelines articles, available in the journals in which they have been published over time. 
 In addition, you will find links to available resources on the GRADE methodology in english and spanish.

@@ -9,9 +9,9 @@
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "1  Introduction",
+    "title": "1  GRADE guidelines",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. “Literate Programming.” Comput. J. 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97."
+    "text": "In this section, you will find the complete and updated collection of the GRADE guidelines publications in BMJ and JCE since 2010 (including free and paid).\n\n\n\n\n\n\n\n\n\n\n\nImportant!\n\n\n\nSince not all issues are free, we will only include the links to visit the web version of the publication from the magazine, sorry. The articles that are freely accessible are available in this repository, as well as their respective links."
   },
   {
     "objectID": "summary.html",
@@ -40,5 +40,19 @@
     "title": "GRADE guidelines repository in a bookdown",
     "section": "Disclaimer",
     "text": "Disclaimer\nThis publication has as its sole purpose, to gather and disseminate the information available on this Evidence Based Medicine methodology."
+  },
+  {
+    "objectID": "grade-guidelines.html",
+    "href": "grade-guidelines.html",
+    "title": "1  GRADE guidelines",
+    "section": "",
+    "text": "In this section, you will find the complete and updated collection of the GRADE guidelines publications in BMJ and JCE since 2010 (including free and paid).\n\n\n\n\n\n\n\n\n\n\n\nImportant!\n\n\n\nSince not all issues are free, we will only include the links to visit the web version of the publication from the magazine, sorry. The articles that are freely accessible are available in this repository, as well as their respective links."
+  },
+  {
+    "objectID": "grade-resources.html",
+    "href": "grade-resources.html",
+    "title": "2  GRADE Resources",
+    "section": "",
+    "text": "In this section, you will find a list of freely available resources to study and learn more about the GRADE methodology and its applications. This section will be constantly updated as we continue to find interesting resources to share.\nAny suggestions are welcome :)"
   }
 ]

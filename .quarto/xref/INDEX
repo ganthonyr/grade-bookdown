@@ -10,5 +10,11 @@
   },
   "references.qmd": {
     "references.html": "8b36cbef"
+  },
+  "grade-guidelines.qmd": {
+    "grade-guidelines.html": "791ea42c"
+  },
+  "grade-resources.qmd": {
+    "grade-resources.html": "c76ace45"
   }
 }

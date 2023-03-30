@@ -1,0 +1,18 @@
+# GRADE guidelines
+
+In this section, you will find the **complete and updated collection** of the *GRADE guidelines* publications in [BMJ](https://www.bmj.com/) and [JCE](https://www.jclinepi.com/) since 2010 (including free and paid).
+
+```{r}
+#| echo: FALSE
+#| out.width: NULL
+knitr::include_graphics("images/image.png", dpi = 270)
+```
+
+:::{.callout-note}
+
+## Important!
+
+Since not all issues are free, we will only include the links to visit the web version of the publication from the magazine, sorry. The articles that are freely accessible are available in this repository, as well as their respective links.
+
+:::
+

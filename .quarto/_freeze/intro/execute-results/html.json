@@ -1,8 +1,10 @@
 {
-  "hash": "beb781925a39708a1df04f7f47fc5adb",
+  "hash": "27ea19770130937855e707db12e67a05",
   "result": {
-    "markdown": "# Introduction\n\nThis is a book created from markdown and executable code.\n\nSee @knuth84 for additional discussion of literate programming.\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
-    "supporting": [],
+    "markdown": "# GRADE guidelines\n\nIn this section, you will find the **complete and updated collection** of the *GRADE guidelines* publications in [BMJ](https://www.bmj.com/) and [JCE](https://www.jclinepi.com/) since 2010 (including free and paid).\n\n\n::: {.cell}\n::: {.cell-output-display}\n![](images/image.png)\n:::\n:::\n\n\n:::{.callout-note}\n\n## Important!\n\nSince not all issues are free, we will only include the links to visit the web version of the publication from the magazine, sorry. The articles that are freely accessible are available in this repository, as well as their respective links.\n\n:::\n\n",
+    "supporting": [
+      "intro_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],
