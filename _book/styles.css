@@ -63,3 +63,9 @@ a {
   color: white;
   font-weight: 600;
 }
+/*
+@media (min-width: 768px) .nav-footer {
+  -webkit-flex: 0 0 50%;
+  max-width: 50%;
+  background-color: green;
+}*/

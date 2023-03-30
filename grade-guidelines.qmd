@@ -15,4 +15,8 @@ knitr::include_graphics("images/image.png", dpi = 270)
 Since not all issues are free, we will only include the links to visit the web version of the publication from the magazine, sorry. The articles that are freely accessible are available in this repository, as well as their respective links.
 
 :::
-
+<!-- esto agrega una imagen o ualquier coas en pantalla grande
+::: {.column-screen}
+![](images/cover.png)
+:::
+-->
