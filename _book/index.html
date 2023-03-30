@@ -133,8 +133,8 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#welcome" id="toc-welcome" class="nav-link active" data-scroll-target="#welcome">Welcome</a>
   <ul class="collapse">
   <li><a href="#acknowledgements" id="toc-acknowledgements" class="nav-link" data-scroll-target="#acknowledgements">Acknowledgements</a></li>
-  </ul></li>
   <li><a href="#disclaimer" id="toc-disclaimer" class="nav-link" data-scroll-target="#disclaimer">Disclaimer</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -165,20 +165,26 @@ ul.task-list li input[type="checkbox"] {
 
 </div>
 <p>This is the website for the work-in-progress <strong>“GRADE Guidelines Repository in a bookdown”</strong>. This book brings together the GRADE (Grading of Recommendations, Assessment, Development, and Evaluations) guidelines articles, available in the journals in which they have been published over time. In addition, you will find links to available resources on the GRADE methodology in english and spanish.</p>
-<p>According to the BMJ: <em>“GRADE is a transparent framework for developing and presenting evidence summaries and provides a systematic approach to making clinical practice recommendations. It is the most widely adopted tool for grading the quality of evidence and for making recommendations, with more than 100 organizations worldwide officially endorsing GRADE.”</em></p>
-<p>If you wish to contribute, you are welcome! Just send a pull request in the github repository. ADD LINK TO GITHUB</p>
+<p>According to the BMJ: <em>“GRADE is a transparent framework for developing and presenting evidence summaries and provides a systematic approach to making clinical practice recommendations. It is the most widely adopted tool for grading the quality of evidence and for making recommendations, with more than 100 organizations worldwide officially endorsing GRADE.”</em> <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p>If you wish to contribute, you are welcome! Just send a pull request in the github repository <a href="https://github.com/ganthonyr/grade-bookdown"><img src="images/github-icon.png" class="img-fluid" style="width:5.0%"></a>.</p>
 <p>This website is and will always be free, licensed under the <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/us/">CC BY-NC-ND 3.0</a> License.</p>
 <p>Please note that <em>“GRADE Guidelines Repository in a bookdown”</em> uses a <a href="https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html">Contributor Code of Conduct</a>. By contributing to this book, you agree to abide by its terms.</p>
 <section id="acknowledgements" class="level2 unnumbered">
 <h2 class="unnumbered anchored" data-anchor-id="acknowledgements">Acknowledgements</h2>
 <p><em>“GRADE Guidelines Repository in a bookdown”</em> is hosted by <a href="https://www.netlify.com" class="uri">https://www.netlify.com</a> as part of their support of open source software and communities.</p>
 </section>
-</section>
-<section id="disclaimer" class="level1 unnumbered">
-<h1 class="unnumbered">Disclaimer</h1>
+<section id="disclaimer" class="level2 unnumbered">
+<h2 class="unnumbered anchored" data-anchor-id="disclaimer">Disclaimer</h2>
 <p>This publication has as its sole purpose, to gather and disseminate the information available on this Evidence Based Medicine methodology.</p>
 
 
+</section>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>BMJ Best Practice. Learn EBM. <a href="https://bestpractice.bmj.com/info/toolkit/learn-ebm/what-is-grade/">Link here</a><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
 </section>
 
 </main> <!-- /main -->
@@ -313,6 +319,20 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       });
     }
   }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+    var links = window.document.querySelectorAll('a:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
 });
 </script>
 <nav class="page-navigation">

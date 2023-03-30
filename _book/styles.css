@@ -13,6 +13,11 @@ main {
     margin-bottom: 1em;
 }
 
+/*links*/
+a {
+  color: red;
+}
+
 #title-block-header.quarto-title-block.default .quarto-title .title {
   color: transparent;
   margin-bottom: -120px; /*escondiendo el titulo*/
@@ -30,7 +35,11 @@ main {
   margin-top: 70px;
 }
 
-
+/*footnote ref*/
+#fnref1 {
+  color: #999999;
+  font-weight: 700;
+}
 
 /****FOOTER****/
 .nav-footer {

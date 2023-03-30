@@ -32,6 +32,7 @@ format:
     css: styles.css
   pdf:
     documentclass: scrreprt
+link-external-newwindow: true
 
 
 
